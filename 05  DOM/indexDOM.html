@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="styleDOM.css">
+    <title>DOM</title>
+
+    <style>
+        .clear {
+    clear: both;
+        }
+    </style>
+
+</head>
+
+<body class="container">
+    <h1>Pamoka Nr.5 DOM</h1>
+
+    <div>
+        <h3>Praktinė užduotis Nr.1</h3>
+        <p class="border">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero soluta, porro quod a dicta assumenda. Vero eos ipsam exercitationem, similique impedit expedita deleniti quod sed est, nesciunt nihil ad inventore harum consequuntur perferendis odio rerum, labore et aut ex at quo fugit. Molestiae autem hic fugit adipisci rerum incidunt non!
+        </p>
+
+        <button onclick="changeColorToYellow()" type="button" class="btn btn-warning">Geltona</button>
+        <button onclick="changeColorToGreen()" type="button" class="btn btn-success">Žalia</button>
+        <button onclick="changeColorToRed()" type="button" class="btn btn-danger">Raudona</button>
+        <hr>
+
+        <h3>Praktinė užduotis Nr.2</h3>
+
+        <p class="border">
+            <button onclick="changeSizeToBig()" type="button" class="btn btn-warning">Didelis</button>
+            <button onclick="changeSizeToSmall()" type="button" class="btn btn-success">Mažas</button>
+            <button onclick="changeSourceTo2()" type="button" class="btn btn-info">Starcraft</button>
+            <button onclick="changeSourceTo1()" type="button" class="btn btn-secondary">Grąžinti</button>
+            <br />
+            <img class="image" src="img/big.svg" alt="photo">
+        </p>
+        <hr>
+
+        <h3>Praktinė užduotis Nr.3</h3>
+
+        <p class="border">
+            <button onclick="changeToColorMode()" type="button" class="btn btn-success">Spavotas</button>
+            <button onclick="changeToMonoMode()" type="button" class="btn btn-dark">Nespalvotas</button>
+            <br />
+            <img id="starc" class="image" src="img/star2.png" alt="photo">
+        </p>
+
+
+
+        <h3>Praktinė užduotis Nr.4</h3>
+        <section class="border clear">
+            <button onclick="changeToLeftPosition()" type="button" class="btn btn-dark">Kairėje</button>
+            <button onclick="changeToRightPosition()" type="button" class="btn btn-dark">Dešinėje</button>
+            <button onclick="changeToHidden()" type="button" class="btn btn-dark">Paslėptas</button>
+            <button onclick="changeBottomPosition()" type="button" class="btn btn-dark">Nukelti po pastraipomis</button>
+            <button onclick="changeToRestore()" type="button" class="btn btn-dark">Atstatyti</button>
+            <p id="first"></p>
+            <img id="pingvinas" src="img/java.png" alt="java">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam ratione perferendis facilis totam, corrupti fugiat iusto itaque nobis consectetur. Repellendus repudiandae voluptates numquam sequi quam, facere nulla aspernatur. Consectetur, quas.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam ratione perferendis facilis totam, corrupti fugiat iusto itaque nobis consectetur. Repellendus repudiandae voluptates numquam sequi quam, facere nulla aspernatur. Consectetur, quas.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam ratione perferendis facilis totam, corrupti fugiat iusto itaque nobis consectetur. Repellendus repudiandae voluptates numquam sequi quam, facere nulla aspernatur. Consectetur, quas.</p>
+            <p id="last"></p>
+        </section>
+
+        <section class="clear">
+            <h3>Praktinė užduotis Nr.5</h3>
+            <p></p>
+            <button onclick="changeToUnhidden()" type="button" class="btn btn-success">Komentaras</button>
+            <form id="forma" class="hidden">
+                <br>
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">Vardas ir pavardė</span>
+                    </div>
+                    <input type="text" aria-label="First name" class="form-control">
+                    <input type="text" aria-label="Last name" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Komentaras:</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <button onclick="popupAlert()" type="button" class="btn btn-success">Pateikti</button>
+            </form>
+        </section>
+
+        <section>
+            <h3>Praktinė užduotis Nr.6</h3>
+            <div id="tevelis">
+                <p id="sunelis">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam ratione perferendis facilis totam, corrupti fugiat iusto itaque nobis consectetur. Repellendus repudiandae voluptates numquam sequi quam, facere nulla aspernatur. Consectetur, quas.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam ratione perferendis facilis totam, corrupti fugiat iusto itaque nobis consectetur. Repellendus repudiandae voluptates numquam sequi quam, facere nulla aspernatur. Consectetur, quas.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam ratione perferendis facilis totam, corrupti fugiat iusto itaque nobis consectetur. Repellendus repudiandae voluptates numquam sequi quam, facere nulla aspernatur. Consectetur, quas.</p>
+                <button onclick="popupPavadinimas()" type="button" class="btn btn-success">OK</button>
+            </div>
+
+
+        </section>
+
+
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="javascriptDOM.js">
+    </script>
+</body>
+
+</html>

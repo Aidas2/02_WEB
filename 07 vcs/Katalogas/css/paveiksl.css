@@ -1,0 +1,16 @@
+.dydis {height: 60px;}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+h3 {
+	font-family: 'Indie Flower', cursive;
+	}
+
+h6 {
+	font color="red";
+	}
+	

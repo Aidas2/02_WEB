@@ -1,0 +1,15 @@
+.calculator{
+    align-content: center;
+    padding: 10px;
+    width: 250px;
+    border: 1px solid green;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    border: 2px solid lightblue;
+}

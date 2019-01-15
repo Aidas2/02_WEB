@@ -1,0 +1,2 @@
+Cia apie elementu trynima
+https://www.w3schools.com/js/js_htmldom_nodes.asp

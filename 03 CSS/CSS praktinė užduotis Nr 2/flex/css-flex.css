@@ -1,0 +1,70 @@
+.border {
+    border: 1px solid red;
+    margin: 2px; 
+}
+
+.header {
+    width: 50%;
+    float: left;
+    padding: 10px;
+}
+
+.nav {
+    width: 45%;
+    float: right;
+    text-align: right;
+    padding: 10px;
+    text-transform: uppercase;
+    word-spacing: 30px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    color: blue;
+    text-decoration: none;
+}
+
+.clear{
+clear:both;
+}
+
+.virsus {
+    background-color: skyblue;
+    padding: 30px;
+    text-align: center;
+    color: white;
+}
+
+.img {
+    width: 10%;
+}
+.img2 {
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    margin-top: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    }
+
+.article {
+/*    width: 33%;*/
+    flex-basis: 33%;
+    text-align: left;
+/*    margin: auto;*/
+}
+
+.apacia {
+    background-color: darkseagreen;
+    padding: 10px;
+    text-align: center;
+}

@@ -1,0 +1,16 @@
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    width:230px;
+    height: auto;
+    border:green solid 1px;
+    
+}
+
+
+.flex-container > div {
+   text-align:justify;
+   margin: 5px;
+    
+}
+

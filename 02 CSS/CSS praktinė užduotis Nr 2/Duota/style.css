@@ -1,0 +1,226 @@
+/*****************************************************
+
+    Numatytųjų naršyklės stiliaus taisyklių perrašymas 
+
+******************************************************/
+
+/* Visos išorinės paraštės (margin) lygios 0 */
+* {
+    margin:0;
+}
+
+/* Šrifto tipo ir dydžio taisyklės visam tinklapiui */
+
+
+body{
+    font-family: 'Questrial', sans-serif;
+    font-size: 12pt;
+}
+
+/* Kelios klasės */
+
+.description{
+    background-color: #F3F3F3;
+}
+
+.container{
+    padding: 30px 10px;
+}
+
+/****************************************
+
+    Tinklapio antraštė 
+
+*****************************************/
+
+/* header: 
+    fono spalva: #16A085, 
+    teksto - balta.
+*/
+header {
+    background-color: #16A085;
+    color: white;
+}
+
+/* <h1>, esantis <header> dalyje: 
+    tekstas: visos didžiosios raidės,
+    vidinės paraštės (padding): 20px 0,
+*/
+header h1 {
+    text-transform: uppercase;
+    padding:  20px 0;
+}
+
+/* <h3>, esantis <header> dalyje:
+    tarpai tarp raidžių: 0,3 em
+*/
+
+header h3 {
+    letter-spacing: 0.3em
+}
+
+/* <nav>, esantis <header> dalyje:
+    viršutinis rėmelis: 2px dashed white;
+    viršutinė vidinė paraštė: 20px;
+*/
+header nav {
+    border-top: 2px dashed white;
+    padding-top: 20px; 
+}
+
+/* nuoroda, esanti <header> dalyje:
+    spalva: balta;
+    teksto pabraukimo nėra;
+*/
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+/* sąrašas, esantis <header> dalyje:
+    sąrašo ženklinimo nėra;
+    visos vidinės paraštės lygios 0;
+*/
+header nav ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+/* 
+sąrašas išdėstytas eilutėje:
+*/
+
+header nav li {
+    display: inline-block;
+    width: 150px;
+}
+
+/* Pseudo klases nuorodoms, <header> dalyje */
+
+/* :link
+    teksto spalva: balta;
+*/
+header a:link {
+    color: white;
+}
+
+
+/* :visited 
+    teksto spalva: balta;
+*/
+header a:visited {
+    color: white;
+}
+
+
+header /* :hover
+    teksto spalva: balta;
+    tesktas pabrauktas;
+*/
+header a:hover {
+    color: white;
+    text-decoration:underline
+}
+
+
+/* :active
+    teksto spalva: pilka;
+*/
+header a:active {
+    color: gray;
+}
+
+/*************************************
+    
+    Tinklapio pagrindinė dalis | Main 
+
+*************************************/
+
+/* <h3>, esantis <article>:
+    tekstas: visos didžiosios raidės;
+    teksto spalva: #16A085;
+    tarpai tarp raidžių: 0,3em;
+*/
+article h3 {
+    text-transform: uppercase;
+    color: #16A085;
+    letter-spacing: 0.3em;
+}
+
+
+/* <ul>, esančio <article>:
+    ženklinto sąrašo stilius: kvadratas;
+*/
+article ul {
+    list-style-type: square;
+}
+
+
+/* <ol>, esančio <article>:
+    numeracijos stilius: mažosios romėniškos raidės;
+    eilutės aukštis: 2;
+*/
+article ol {
+    list-style: lower-roman;
+    line-height: 2;
+}
+
+
+/* pirmoji <section>, esanti <main> dalyje:
+    teksto lygiavimas: centruotas (center);
+*/
+main section:first-child {
+    text-align: left;
+}
+
+
+/* paveiklas:
+    rėmelis: 1px solid #16A085;
+*/
+img {
+    border: 1px solid #16A085;
+}
+
+
+/**************************************
+
+    Tinklapio baigiamoji dalis | footer
+
+***************************************/
+
+/* <footer> dalys:
+    teksto lygiavimas: centruotas;
+    fono spalva: #16A085;
+*/
+footer {
+    text-align: center;
+    background-color: #16A085; 
+}
+.bullets {
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+/* nuorodos, esančio <footer>:
+    teksto pabraukimo nėra;
+    teksto spalva: balta;
+*/
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+/* <h5>, esančio <footer> dalyje:
+    viršutinės vidinė paraštė: 20px;
+*/
+footer h5 {
+    padding-top: 20px;    
+}
+
+
+
+
+
+

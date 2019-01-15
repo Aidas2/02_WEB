@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<!--    <link rel="stylesheet" href="style.css">-->
+
+    <style>
+        #ataskaita{
+    visibility: hidden;
+/*    //display: none;*/
+    margin-top: 10px;  
+    }
+
+        #istorija{
+    margin-top: 5px;
+    }
+    </style>
+    
+    <title>02 užduotis - E-Bankas su objektais</title>
+</head>
+
+<body>
+    <h1>E-Bankas</h1>
+    <p></p>
+    <form action="" id="el_bankas">
+        Veiksmas:
+        <input type="text" id="sumos_ivedimas" name="ivedimas">
+        <select id="id_of_select">
+            <option value="1">Papildyti</option>
+            <option value="2">Išimti</option>
+        </select>
+        <p></p>
+        <p id="pranesimas">Sąskaitoje yra: 300 Eur.</p>
+        <p></p>
+        <button id="mygtukas" class="btn btn-primary pirminis" type="=submit">Atlikti veiksmą</button>
+
+
+    </form>
+    <button id="istorija" class="btn btn-primary pirminis" type="=click">Operacijų istorija</button>
+    <div id="ataskaita">
+        <div class="row">
+            <div class="col-md-auto">
+                <div id="filtravimas">
+                    <form action="" id="filtruoti">
+                        Suma: <input type="text" id="sumos_filtras" name="sumos_filtras">
+                        <button id="pritaikyti_filtra" class="btn btn-primary pirminis" type="=submit">Filtruoti</button>
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-auto">
+                <button id="rusiuoti" class="btn btn-primary pirminis" type="=click">Rūšiuoti</button>
+            </div>
+        </div>
+        <div id="rezultatai">
+
+        </div>
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

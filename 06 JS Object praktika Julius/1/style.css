@@ -1,0 +1,31 @@
+.container{
+	padding: 20px 20px;
+	margin-top: 50px;
+	text-align: center;
+	border: 1px solid black;
+	background-image: url('bg.jpg');
+	background-size: cover;
+}
+.row{
+	margin-top: 50px;
+	justify-content: center;
+}
+
+.box{
+	margin: 0 10px;
+	background-color: #ddb971;
+}
+
+button{
+	margin-bottom: 60px;
+}
+input{
+	width: 50px;
+}
+
+.col h4{
+	padding-top: 20px;
+}
+.col p{
+	background-color: #b29457;
+}

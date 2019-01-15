@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+    <style>
+        h3 {
+            color: orange;
+        }
+        
+        .flex-container {
+            display: inline-flex;
+            flex-direction: row;
+            justify-content: space-around; 
+            align-items: center;
+            text-align:justify;
+            margin: 10px;          
+        }
+        
+        
+    </style>
+
+</head>
+
+<body>
+    <h2>05 JS Events and Form</h2>
+    <!--//=====================================================================================-->
+    <h3>Praktikos darbas Nr.1</h3>
+    <p>Įrašyk skaičių nuo 0 iki 100:</p>
+    <input type="text" placeholder="Įrašyk skaičių čia" id="guessNumber">
+    <button id="btn1">Spėti skaičių</button>
+    <p>Spėjimų kiekis yra: </p>
+    <p id="parodyti"></p>
+
+    <!--//=====================================================================================-->
+    <h3>Praktikos darbas Nr.2</h3>
+    <form id="registration">
+        <input type="text" placeholder="Skaicius1" name="pirmasNumber">
+        <input type="text" placeholder="Skaicius2" name="antrasNumber">
+        <button>Skaiciuoti</button>
+    </form>
+    <p>Resultatas yra: <span></span></p>
+
+    <!--//=====================================================================================-->
+    <h3>Praktikos darbas Nr.3</h3>
+    <div class="flex-container">
+        <p>Įrašyk savo svorį, kg:</p>
+        <input type="text" placeholder="Įrašyk kg čia" id="weight">
+        <p>Įrašyk savo ūgį, m:</p>
+        <input type="text" placeholder="Įrašyk m čia" id="hight">
+    </div>
+    <br>
+    <p></p>
+    <button id="btn3">Skaičiuoti KMI</button>
+    <br>
+    <div class="flex-container">
+        <p>Kūno masės indeksas yra: </p>
+        <p id="parodyti31"></p>
+        <p>Išvada: </p>
+        <p id="parodyti32"></p>
+    </div>
+
+    <!--//=====================================================================================-->
+    <h3>Praktikos darbas Nr.4</h3>
+    <p>Surašyk ką reikia nupirkti parduotuvėje:</p>
+    <input type="text" placeholder="Įrašyk produktą čia" id="produktas">
+    <button id="btn4">ADD</button>
+    <p>Produktų sąrašas: </p>
+    <p id="parodyti4"></p>
+    <ul>
+        <!--        <li></li>-->
+    </ul>
+
+    <!--//=====================================================================================-->
+    <h3>Praktikos darbas Nr.5</h3>
+    <input type="text" placeholder="Šis fonas turi pasikeisti" id="fonasA" onfocus="changeOnFocus()" onblur="changeOnBlur()" onmouseover="changeOnMouseOver()">
+    <input type="text" placeholder="Šis fonas turi pasikeisti" id="fonasB" onfocus="changeOnFocus()" onblur="changeOnBlur()" onmouseover="changeOnMouseOver()">
+
+    <!--//=====================================================================================-->
+    <h3>Praktikos darbas Nr.6</h3>
+    <select id="id_of_select">
+        <option value="1">winter</option>
+        <option value="2">spring</option>
+        <option value="3">summer</option>
+        <option value="4">autumn</option>
+    </select>
+    <button id="btn6">Show selected</button>
+    <p id="display"></p>
+
+
+
+
+
+
+
+    <script src="script-EVENTS.js"></script>
+
+</body>
+
+</html>

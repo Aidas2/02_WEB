@@ -1,0 +1,64 @@
+body {
+    background-image: url('img/wp.jpg');
+    background-size: auto;
+}
+
+.box {
+    justify-content: center;
+}
+
+.inputs input {
+    display: block;
+}
+
+.inputs {
+    color: black;
+    padding: 20px;
+    text-align: left;
+    width: 250px;
+
+}
+
+.inputs label {
+    padding: 0;
+    margin: 0
+}
+
+.inputs .input {
+    padding: 20px;
+    margin: 10px;
+}
+
+.btn {
+    width: 200px;
+}
+
+.results {
+    justify-content: center;
+    display: flex;
+    flex-flow: wrap;
+}
+
+.row {
+    margin: 10px 10px;
+}
+
+.jumbotron {
+    color: black;
+    margin-top: 50px;
+    background-image: url('img/Books.jpg');
+    background-size: cover;
+}
+
+.lead {
+    background-color: white;
+}
+
+.inputs {
+    background: rgba(204, 204, 204, 0.2);
+}
+
+.card-img-top {
+    height: 500px;
+    width: auto;
+}

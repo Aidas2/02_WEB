@@ -1,0 +1,15 @@
+.calculator{
+    width: 500px;
+    padding: 10px;
+    border: 1px solid green;
+}
+
+
+button{
+    border: 2px solid lightblue;
+}
+
+img{
+    width: 200px;
+    height: auto;
+}

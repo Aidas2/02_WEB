@@ -1,0 +1,25 @@
+nav {
+    background-color: black;
+    margin-bottom: 20px;
+}
+
+nav a {
+    color: white;
+}
+
+.jumbotron {
+    margin-bottom: 20px;
+}
+
+h2 {
+    text-transform: uppercase;
+/*    //color: red; neveikia :(*/
+}
+
+#raudona {
+    color: red;
+}
+
+img {
+    height: 200px;
+}

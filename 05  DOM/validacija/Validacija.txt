@@ -1,0 +1,40 @@
+    <form action="">
+
+        <p>Didžioji raidė: </p>
+        <input type="text" pattern="[A-Z]">
+
+        <p>Didžiosios raidės (be limito): </p>
+        <input type="text" pattern="[A-Z]+">
+
+        <p>Mažosios raidės (be limito): </p>
+        <input type="text" pattern="[a-z]+">
+
+        <p>Didžiosios raidės, max 3</p>
+        <input type="text" pattern="[A-Z]{3}">
+
+        <p>Didžiosios, mažosios raidės, max 3</p>
+        <input type="text" pattern="[A-Za-z]{3}">
+
+        <p>Didžiosios, mažosios raidės, min 3, max 6</p>
+        <input type="text" pattern="[A-Za-z]{3, 6}">
+
+        <!--Skaičiai-->
+
+        <p>Tik vienas skaičius (1):</p>
+        <input type="text" pattern="[0-9]">
+
+        <p>Tik vienas skaičius (2):</p>
+        <input type="text" pattern="\d">
+
+        <p>Tik skaičiai:</p>
+        <input type="text" pattern="[0-9]+">
+
+        <p>Nuo 3 - 6 skaičiai:</p>
+        <input type="text" pattern="[0-9]{3,6}">
+
+        <!-- arba -->
+
+        <p>TAIP arba NE</p>
+        <input type="text" pattern="(TAIP|NE)">
+        
+    </form>

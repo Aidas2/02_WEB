@@ -1,0 +1,27 @@
+.box {
+	width: 500px;
+    margin: 20px;
+    border: 1px solid green;
+    padding: 10px;
+}
+
+.row {
+    justify-content: center;
+}
+
+.in{
+	color: green;
+}
+
+.out {
+	color: red;
+}
+
+.transactions{
+	margin-top:20px;
+}
+
+.transactions b{
+	display: inline-block;
+	justify-content: flex-end;
+}

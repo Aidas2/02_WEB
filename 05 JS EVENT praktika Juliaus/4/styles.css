@@ -1,0 +1,33 @@
+.con {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.box {
+  width: auto;
+  height: auto;
+  padding: 20px;
+  padding-bottom: 40px;
+  border: 2px solid red;
+}
+.todoElement {
+  clear: both;
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+
+.todoElement .todoChk {
+  margin-top: 8px;
+  margin-right: 20px;
+}
+
+.todoElement .todoDelBtn{
+  margin-left: 20px;
+}

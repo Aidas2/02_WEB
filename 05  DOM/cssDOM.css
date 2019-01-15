@@ -1,0 +1,34 @@
+/*
+.border {
+    border: 3px solid green;
+    color: red;
+}*/
+
+/*Praktinė užduotis Nr.2*/
+.image {
+    width: 200px;
+    padding: 20px;
+}
+
+/*Praktinė užduotis Nr.3*/
+.colorfull {
+    filter: contrast(200%);
+}
+
+.monochrome {
+    filter: grayscale(80%); 
+}
+
+/*Praktinė užduotis Nr.4*/
+
+
+/*Praktinė užduotis Nr.5*/
+.hidden {
+    visibility:hidden;
+}
+
+.unhidden {
+    visibility: visible;
+}
+
+

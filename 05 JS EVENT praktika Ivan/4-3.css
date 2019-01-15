@@ -1,0 +1,15 @@
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    width:210px;
+    height: 70px;
+   
+    
+}
+
+
+.flex-container > div {
+   text-align:justify;
+   margin: 5px;
+}
+
