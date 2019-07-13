@@ -1,0 +1,32 @@
+b<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/bootstrap.css">
+  <link rel="stylesheet" href="styles/style.css">
+  <title>BookStore</title>
+</head>
+
+<body>
+  <div class="container main-container">
+    <div class="row search-row">
+      <div class="col-12">
+        <input type="text" name="searchFor" id="searchFor">
+        <select name="searchBy" id="searchBy">
+          <option value="" selected disabled>Search by...</option>
+          <option value="author">Author</option>
+          <option value="name">Name</option>
+          <option value="year">Year</option>
+        </select>
+        <button onclick="searchBy()">Search</button>
+      </div>
+    </div>
+    <div class="row" id="booksParent">
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
